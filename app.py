@@ -1,4 +1,3 @@
-from scraper.asos import asos_scraper_bot
 from flask import Flask, render_template, request, jsonify
 from scraper import jumia, konga, asos, payporte
 from flask_cors import CORS
